@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Exercise from './components/Exercise/Exercise';
 import Header from './components/Layout/Header';
 import Main from './components/Main/Main';
 
@@ -10,7 +11,8 @@ function App() {
     // <> -> ESTE CONCEPTO SE LE CONOCE COMO FRAGMENTO
     <>
       <Header />
-      <Main />
+      {/* <Main /> */}
+      <Exercise />
     </>
   );
 }
